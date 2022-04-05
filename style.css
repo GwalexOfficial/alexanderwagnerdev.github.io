@@ -1,0 +1,105 @@
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #283244;
+}
+
+body {
+    background-color: #283244;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    margin-left: 16px;
+    font-weight: 700px;
+}
+
+a:hover {
+    color: darkkhaki;
+    text-decoration: none;
+}
+
+.headline-link {
+    color: azure;
+    text-decoration: none;
+}
+
+.headline-link:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+main {
+    display: auto;
+}
+
+.title {
+    color: azure;
+    width: auto;
+    text-align: center;
+}
+
+.aufbau {
+    color: azure;
+    width: auto;
+    text-align: center;
+}
+
+.legal-content {
+    text-align: center;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.legal-text {
+    margin-right: 16px;
+    margin-left: 16px;
+    color: royalblue;
+    text-align: center;
+}
+
+.legal-text-link {
+    margin-left: 0px;
+    color: royalblue;
+    text-decoration: none;
+}
+
+.legal-text-link:hover {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.author {
+    padding: 6px;
+    font-size: 12px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.author-a {
+    color: grey;
+    text-decoration: none;
+    margin-left: 0px;
+    font-weight: 700px;
+}
+
+.author-a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.version {
+    font-size: 12px;
+    text-align: right;
+    color: coral;
+}
