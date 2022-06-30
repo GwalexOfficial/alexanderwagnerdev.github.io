@@ -126,3 +126,64 @@ main {
     text-align: right;
     color: coral;
 }
+
+#awdev-footer-cookie * {
+    box-sizing: border-box;
+}
+
+#awdev-footer-cookie {
+    font-size: 16px;
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 97%;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 60px;
+    background: #303030;
+    color: #fff;
+}
+    
+#awdev-footer-cookie a {
+    color: #fff;
+}
+
+#awdev-footer-cookie #description {
+    float: left;
+}
+
+#awdev-footer-cookie #accept {
+    float: right;
+}
+
+#awdev-footer-cookie #accept a {
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    #awdev-footer-cookie {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        line-height: inherit;
+        height: auto;
+    }
+
+    #awdev-footer-cookie #description {
+        width: 100%;
+    }
+
+    #awdev-footer-cookie #accept {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    #awdev-footer-cookie #accept a {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
