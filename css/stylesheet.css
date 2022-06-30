@@ -127,6 +127,7 @@ main {
     color: coral;
 }
 
+#awdev-footer-cookie,
 #awdev-footer-cookie * {
     box-sizing: border-box;
 }
